@@ -1,0 +1,172 @@
+    .div1 {
+        width: 1000px;
+        height: 100px;
+        text-align: right;
+        direction: rtl;
+        font-size: 30px;
+    }
+    
+    .a1 {
+        margin: 40px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .a2 {
+        margin: 40px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .a3 {
+        margin: 40px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .a4 {
+        margin: 40px;
+        text-decoration: none;
+        color: black;
+    }
+    
+    .a1:hover {
+        margin: 40px;
+        text-decoration: none;
+        border: 30px solid aqua;
+        border: 30px solid rgb(0, 0, 0);
+        color: rgb(243, 243, 243);
+        background-color: black;
+    }
+    
+    .a2:hover {
+        margin: 40px;
+        text-decoration: none;
+        border: 30px solid aqua;
+        border: 30px solid rgb(0, 0, 0);
+        color: rgb(243, 243, 243);
+        background-color: black;
+    }
+    
+    .a3:hover {
+        margin: 40px;
+        text-decoration: none;
+        border: 30px solid aqua;
+        border: 30px solid rgb(0, 0, 0);
+        color: rgb(243, 243, 243);
+        background-color: black;
+    }
+    
+    .a4:hover {
+        margin: 40px;
+        text-decoration: none;
+        border: 30px solid rgb(0, 0, 0);
+        color: rgb(243, 243, 243);
+        background-color: black;
+    }
+    
+    .logo {
+        position: absolute;
+        right: 1px;
+        top: 1px;
+    }
+    
+    .php {
+        position: absolute;
+        left: 20px;
+        top: 250px;
+        width: 500px;
+        height: 300px;
+    }
+    
+    .js {
+        position: absolute;
+        right: 100px;
+        top: 250px;
+        width: 500px;
+        height: 300px;
+    }
+    
+    .h1 {
+        font-size: 25px;
+        position: absolute;
+        top: 580px;
+        left: 250px;
+        color: rgba(0, 0, 0, 0.898);
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    
+    .bu {
+        font-size: 35px;
+        border: none;
+        outline: none;
+        border-radius: 60px;
+        position: absolute;
+        left: 450px;
+        top: 700px;
+        color: white;
+        background: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    
+    .bu:hover {
+        font-size: 40px;
+        border: none;
+        outline: none;
+        border-radius: 60px;
+        position: absolute;
+        left: 450px;
+        top: 700px;
+        color: white;
+        background: black;
+        font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    /* للهاتف*/
+    
+    @media only screen and (max-width: 500px) {
+        .a1 {
+            position: absolute;
+            left: 20px;
+            top: 1px;
+        }
+        .a2 {
+            position: absolute;
+            right: 2px;
+            top: 1px;
+        }
+        .a3 {
+            position: absolute;
+            left: 20px;
+            top: 60px;
+        }
+        .a4 {
+            position: absolute;
+            right: 20px;
+            top: 60px;
+        }
+        .logo {
+            position: absolute;
+            right: 1px;
+            top: 300px;
+        }
+        .h1 {
+            font-size: 15px;
+            position: absolute;
+            top: 580px;
+            right: 100px;
+            color: rgba(0, 0, 0, 0.898);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+        }
+        .bu {
+            font-size: 35px;
+            border: none;
+            outline: none;
+            border-radius: 60px;
+            position: absolute;
+            right: 850px;
+            top: 700px;
+            color: white;
+            background: black;
+            font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+        }
+    }
